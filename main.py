@@ -37,7 +37,7 @@ group_filters = {
 
 # Stop-words for source groups
 group_stopwords = {
-    (-1002409298826): ["", ""],
+    (-1002409298826): [],
     (7957014661): [],
 }
 
