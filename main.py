@@ -86,8 +86,6 @@ async def process_message():
         # Forward the message to the specific groups
         for group_id in target_groups:
             try:
-                await client.send_message(
-                    group_id, f"Message from the group: {source_name}")
                 await client.forward_messages(group_id, message)
                 logging.info(
                     f"Message ID {message_id} from '{source_name}' forwarded to group ID {group_id}."
