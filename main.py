@@ -32,13 +32,13 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 group_filters = {
     (-1002409298826): ["bread", "40 wallets", "3 wallets","4 wallets"],  #source test
     (7855397066): ["40 wallets"],  # Smart Money Ray
-    (7957014661): ["3 wallets","4 wallets"],  # Ray Agate
+    (7957014661): ["3 wallets","4 wallets","5 wallets","6 wallets","7 wallets","8 wallets","9 wallets","10 wallets","11 wallets","12 wallets","13 wallets","14 wallets","15 wallets"],  # Ray Agate
 }
 
 # Stop-words for source groups
 group_stopwords = {
-    (-1002409298826): ["🔺", "🔸"],
-    (7957014661): ["🔺"],
+    (-1002409298826): ["", ""],
+    (7957014661): [],
 }
 
 # Dynamic target group mapping
