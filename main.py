@@ -43,8 +43,7 @@ group_stopwords = {
 # Dynamic target group mapping
 group_config = {
     (-1002409298826): [4537474080],  #target test
-    (-1002383817881): [7753411011],  # Googlesmart to Nova
-    (-1002383817881): [7497120111],  # Googlesmart to Bloom
+    (-1002383817881): [7753411011,7497120111],  # Googlesmart to Nova, Bloom
 }
 
 # Initialize the Telegram client
