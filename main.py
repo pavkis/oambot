@@ -31,19 +31,20 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 # Keywords for source groups
 group_filters = {
     (-1002409298826): ["bread"],  #source test
-    (7855397066): ["5 wallets"],  # Smart Money Ray
+    (-1002383817881): [],
 }
 
 # Stop-words for source groups
 group_stopwords = {
     (-1002409298826): [],
-    (7957014661): [],
+    (-1002383817881): [],
 }
 
 # Dynamic target group mapping
 group_config = {
     (-1002409298826): [4537474080],  #target test
-    (7855397066): [7753411011],  # Smart Money Ray to Nova
+    (-1002383817881): [7753411011],  # Googlesmart to Nova
+    (-1002383817881): [7497120111],  # Googlesmart to Bloom
 }
 
 # Initialize the Telegram client
