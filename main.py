@@ -30,13 +30,13 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 
 # Keywords for source groups
 group_filters = {
-    (-1002409298826): ["bread"],  #source test
-    (-1002383817881): [],
+    (-1002409298826): [""],  #source test
+    (-1002383817881): [""],  #googlesmart
 }
 
 # Stop-words for source groups
 group_stopwords = {
-    (-1002409298826): [],
+    (-1002409298826): ["jopa"],
     (-1002383817881): [],
 }
 
