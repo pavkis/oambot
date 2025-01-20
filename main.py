@@ -36,8 +36,8 @@ group_filters = {
 
 # Stop-words for source groups
 group_stopwords = {
-     (-7855397066): [""],
-     (-1002409298826): [""],
+     (-7855397066): ["pashadurak"],
+     (-1002409298826): ["pashadurak"],
 }
 
 # Dynamic target group mapping
