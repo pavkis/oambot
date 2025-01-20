@@ -37,19 +37,13 @@ group_filters = {
 # Stop-words for source groups
 group_stopwords = {
     (-1002409298826): ["jopa"],
-    (-7855397066): [""],
-    (-1002423409045): [""],
-    (-1002266890392): [""],
-
+    (-7855397066): ["jopa"],
 }
 
 # Dynamic target group mapping
 group_config = {
     (-1002409298826): [4537474080, 7753411011],  #target test to test and nova
     (-7855397066): [7753411011], #smart money to Nova
-    (-1002423409045): [7753411011],  # alpha launches to Nova
-    (-1002266890392): [7497120111],  # noc dungeon to Bloom
-
 }
 
 # Initialize the Telegram client
