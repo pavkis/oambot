@@ -31,18 +31,16 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 # Keywords for source groups
 group_filters = {
     (-1002409298826): [""],  #source test
-    (-7855397066): [""],  #smartmoney oandmlis
-    (-1002423409045): [""],  #alpha launches
-    (-1002266890392): [""],  #noc dungeon
+    (-7855397066): [""],  #smartmoney 
 }
 
 # Stop-words for source groups
 group_stopwords = {
     (-1002409298826): ["jopa"],
-    (-7855397066): [],
-    (-1002423409045): [],
-    (-1002266890392): [],
-    
+    (-7855397066): [""],
+    (-1002423409045): [""],
+    (-1002266890392): [""],
+
 }
 
 # Dynamic target group mapping
