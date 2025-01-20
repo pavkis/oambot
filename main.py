@@ -36,8 +36,8 @@ group_filters = {
 
 # Stop-words for source groups
 group_stopwords = {
-     (-7855397066): ["jopa"],
-     (-1002409298826): ["jopa"],
+     (-7855397066): [""],
+     (-1002409298826): [""],
 }
 
 # Dynamic target group mapping
