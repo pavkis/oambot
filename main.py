@@ -32,18 +32,24 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 group_filters = {
     (-1002409298826): [""],  #source test
     (-7855397066): [""],  #smartmoney oandmlis
+    (-1002423409045): [""],  #alpha launches
+    (-1002266890392): [""],  #noc dungeon
 }
 
 # Stop-words for source groups
 group_stopwords = {
     (-1002409298826): ["jopa"],
-    (-1002383817881): [],
+    (-7855397066): [],
+    (-1002423409045): [],
+    (-1002266890392): [],
 }
 
 # Dynamic target group mapping
 group_config = {
     (-1002409298826): [4537474080],  #target test
     (-7855397066): [7753411011],  # Googlesmart to Nova
+    (-1002423409045): [7753411011],  # alpha launches to Nova
+    (-1002266890392): [7497120111],  # noc dungeon to Bloom   
 }
 
 # Initialize the Telegram client
