@@ -30,20 +30,24 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 
 # Keywords for source groups
 group_filters = {
-    (-7855397066): [""],  
-    (-1002409298826): [""],
+    (-1002423409045): [""], #alpha launches
+    (-1002266890392): [""], #noc dungeon
+    (-1002409298826): [""], #source test
+
 }
 
 # Stop-words for source groups
 group_stopwords = {
-    (-7855397066): ["stopword"],  
-    (-1002409298826): ["stopword"],
+    (-1002423409045): ["stopworddd"],
+    (-1002266890392): ["stopworddd"], #noc dungeon
+    (-1002409298826): ["stopworddd"],
 }
 
 # Dynamic target group mapping
 group_config = {
-    (-7855397066): [4537474080],
-    (-1002409298826): [4537474080],
+    (-1002423409045): [7497120111], #alpha launchesto bloom
+    (-1002266890392): [7497120111], #noc dungeon to bloom
+    (-1002409298826): [4537474080], #source test to target test
 }
 
 # Initialize the Telegram client
